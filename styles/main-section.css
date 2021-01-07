@@ -8,20 +8,34 @@
   font-family: 'gotham-light';
   src: 
       url('/fonts/Gotham-Light.otf') format('opentype');
-  font-weight: 600;
 }
 
 .main-section {
   height: 796px;
+  padding: 0 100px;
   background: #408DDC;
   color: #fff;
   font-family: "gotham", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.main-section__wrapper {
+  max-width: 1321px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .main-section__logo {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.main-section__text {
+  max-width: 583px;
 }
 
 .main-section__header {
@@ -34,7 +48,13 @@
 }
 
 .main-section__paragraph {
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 26px;
   font-family: "gotham-light", sans-serif;
+}
+
+.main-section__image {
+  width: 725px;
+  height: 515px;
+  padding-left: 2rem;
 }
