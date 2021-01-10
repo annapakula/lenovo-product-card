@@ -1,31 +1,29 @@
 @font-face {
-  font-family: 'gotham';
-  src: 
-      url('/fonts/Gotham-Book.otf') format('opentype');
+  font-family: "gotham";
+  src: url("/fonts/Gotham-Book.otf") format("opentype");
   font-weight: 600;
 }
 @font-face {
-  font-family: 'gotham-light';
-  src: 
-      url('/fonts/Gotham-Light.otf') format('opentype');
+  font-family: "gotham-light";
+  src: url("/fonts/Gotham-Light.otf") format("opentype");
 }
 
 .main-section {
   height: 796px;
-  padding: 0 110px;
-  background: #408DDC;
-  color: #FFF;
+  padding: 50px 125px;
+  background: #408ddc;
+  color: #fff;
   font-family: "gotham", sans-serif;
   display: flex;
   justify-content: center;
 }
+
 .main-section__wrapper {
   max-width: 1321px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .main-section__logo {
@@ -37,6 +35,7 @@
 .main-section__text {
   max-width: 585px;
   width: 100%;
+  margin-right: 35px;
 }
 
 .main-section__header {
@@ -55,6 +54,65 @@
 }
 
 .main-section__image {
-  height: 515px;
+  max-width: 725px;
+  width: 100%;
   transform: translate(24px);
+}
+
+@media (max-width: 1252px) {
+  .main-section {
+    height: max-content;
+  }
+  .main-section__wrapper {
+    flex-direction: column-reverse;
+  }
+  .main-section__image {
+    max-width: 500px;
+    width: 100%;
+    transform: translate(12px);
+  }
+  .main-section__header {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .main-section__header--smaller {
+    font-size: 26px;
+  }
+  .main-section__text {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .main-section {
+    padding: 50px;
+  }
+  .main-section__logo {
+    width: 50px;
+  }
+}
+
+@media (max-width: 445px) {
+  .main-section {
+    padding: 20px;
+  }
+  .main-section__logo {
+    width: 30px;
+  }
+  .main-section__image-wrapper {
+    padding: 0 20px;
+  }
+  .main-section__header {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .main-section__header--smaller {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .main-section__paragraph {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
