@@ -6,7 +6,7 @@
   vertical-align: text-top;  
 }
 .table__row:not(:last-child) .table__data {
-  border-bottom: 1.5px solid #dbdbdb;
+  border-bottom: 1.5px solid #E9E9E9;
 }
 .table__row:first-child .table__data {
   padding-top: 0;
