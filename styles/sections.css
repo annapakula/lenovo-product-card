@@ -1,0 +1,51 @@
+.section {
+  max-width: 1321px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section__header {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 60px;
+  padding: 40px 0 30px;
+  margin: 0;
+}
+
+.section__paragraph {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+.section__paragraph--padding {
+  padding-bottom: 30px;
+}
+
+.section__image {
+  align-self: center;
+}
+.section__image-laptop-video {
+  padding: 0 0 15px;
+}
+.section__image-woman-and-laptop-1 {
+  padding: 66px 0 50px;
+}
+.section__image-woman-and-laptop-3 {
+  padding: 66px 0 43px;
+}
+.section__image-woman-and-laptop-2 {
+  padding: 66px 0 50px;
+}
+.section__image-style {
+  padding: 66px 0 0;
+}
+.section__image-specyfication {
+  padding: 66px 0 9px;
+}
+
+.section__list {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
