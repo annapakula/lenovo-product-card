@@ -1,11 +1,11 @@
 @font-face {
   font-family: "gotham";
-  src: url("/fonts/Gotham-Book.otf") format("opentype");
+  src: url("../fonts/Gotham-Book.otf") format("opentype");
   font-weight: 600;
 }
 @font-face {
   font-family: "gotham-light";
-  src: url("/fonts/Gotham-Light.otf") format("opentype");
+  src: url("../fonts/Gotham-Light.otf") format("opentype");
 }
 
 .main-section {
