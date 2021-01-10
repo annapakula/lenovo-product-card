@@ -1,0 +1,27 @@
+.table {
+  border-collapse: collapse;
+  padding-bottom: 10px;
+}
+.table__row {
+  vertical-align: text-top;  
+}
+.table__row:not(:last-child) .table__data {
+  border-bottom: 1.5px solid #dbdbdb;
+}
+.table__row:first-child .table__data {
+  padding-top: 0;
+}
+.table__data:first-child {
+  width: 350px;
+}
+.table__data {
+  padding: .9rem 0;
+}
+.table__data--smaller {
+  font-size: .9rem;
+}
+.table__data-footer {
+  padding: .9rem 0 0;
+  text-align: end;
+  font-size: .9rem;
+}

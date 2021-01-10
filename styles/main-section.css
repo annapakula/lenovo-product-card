@@ -37,7 +37,6 @@
 .main-section__text {
   max-width: 585px;
   width: 100%;
-  /* padding-right: 30px; */
 }
 
 .main-section__header {
@@ -56,7 +55,6 @@
 }
 
 .main-section__image {
-  /* width: 725px; */
   height: 515px;
   transform: translate(24px);
 }

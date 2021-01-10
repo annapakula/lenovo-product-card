@@ -13,11 +13,6 @@
   margin: 0;
 }
 
-.section__paragraph {
-  font-size: 20px;
-  line-height: 30px;
-  margin: 0;
-}
 .section__paragraph--padding {
   padding-bottom: 30px;
 }
@@ -41,11 +36,9 @@
   padding: 66px 0 0;
 }
 .section__image-specyfication {
-  padding: 66px 0 9px;
+  padding: 39px 0 9px;
 }
 
 .section__list {
-  font-size: 20px;
-  line-height: 30px;
   margin: 0;
 }
