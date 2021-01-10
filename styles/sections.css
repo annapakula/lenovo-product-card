@@ -34,6 +34,8 @@
   width: 100%;
 }
 .section__image-laptop-video {
+  max-width: 1116px;
+  width: 100%;
   padding: 0 0 15px;
 }
 .section__image-woman-and-laptop-1 {
