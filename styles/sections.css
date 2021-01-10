@@ -20,8 +20,18 @@
   padding-bottom: 30px;
 }
 
+.section__link {
+  color: #5094E3;
+}
+
+.section__list {
+  margin: 0;
+}
+
 .section__image {
   align-self: center;
+  max-width: 1321px;
+  width: 100%;
 }
 .section__image-laptop-video {
   padding: 0 0 15px;
@@ -42,10 +52,28 @@
   padding: 39px 0 9px;
 }
 
-.section__link {
-  color: #5094E3;
+@media (max-width: 1252px) {
+  .section__header {
+    font-size: 36px;
+    line-height: 40px;
+  }
 }
 
-.section__list {
-  margin: 0;
+@media (max-width: 445px) {
+  .section__header {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .section__paragraph {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .section__image {
+    padding: 20px 0;
+  }
+  .section__list {
+    font-size: 18px;
+    line-height: 28px;
+    padding-left: 20px;
+  }
 }
